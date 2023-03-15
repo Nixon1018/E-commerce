@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect,useContext  } from "react";
 import "./Filter.css";
 import { filterContext } from "../../../App";
-import { useContext } from "react";
+
 
 const val = (filter,setFilter,name) =>{
     if(filter.indexOf(name) === -1){

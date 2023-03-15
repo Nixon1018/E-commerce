@@ -1,8 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import"./Products.css";
-import { cartContext } from "../../../App";
-import { useContext } from "react";
-import { filterContext } from "../../../App";
+import { filterContext,cartContext } from "../../../App";
 
 const val = (cart,setCart,id) =>{
     if(cart.indexOf(id) === -1){
@@ -24,7 +22,7 @@ const btnVal = (cart,id) =>{
 }
 const Product = ({productitems}) =>{
     const {cart,setCart} = useContext(cartContext)
-    const {filter,setFilter} = useContext(filterContext)
+    const {filter} = useContext(filterContext)
     return(
         <div className="products">
             {
