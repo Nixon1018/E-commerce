@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  width: 100%;
+}
+.container .filter{
+  width: 20%;
+}
+.container .products{
+  width: 80%;
+}

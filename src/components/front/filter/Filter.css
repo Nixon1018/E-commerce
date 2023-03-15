@@ -1,0 +1,19 @@
+.filter{
+    background-color: #000;
+    color: #eee;
+    margin-top: 20px;
+    height: 400px;
+    text-align: center;
+}
+.filter button{
+    background-color:#000;
+    color:#eee;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+}
+.filter button:hover{
+    color:#eee;
+    background-color:grey;
+    
+}
