@@ -15,10 +15,7 @@ const val = (cart,setCart,id) =>{
 
 
 const btnVal = (cart,id) =>{
-    if(cart.indexOf(id) === -1){
-        return true
-    }
-    return false
+    return(cart.indexOf(id) === -1? true: false);
 }
 const Product = ({productitems}) =>{
     const {cart,setCart} = useContext(cartContext)
