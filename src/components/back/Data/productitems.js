@@ -2,7 +2,7 @@ const productitems =[
         {
         id: "0",
         name:"Colourblock Low-Top Lace-Up Shoes",
-        price:2300,
+        price:230,
         type:"Sneaker",
         img:"./pics/1.jpeg",
         color:"Green",
