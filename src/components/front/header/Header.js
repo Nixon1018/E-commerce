@@ -8,7 +8,7 @@ const Header = (props) =>{
             <div>
                 <h1>
                     <Link to="/" className='logo'>
-                        Sneaker Kicksss
+                        Sneaker
                     </Link>
                 </h1>
             </div>
